@@ -1,0 +1,2233 @@
+export const levelsData = [
+  {
+    "id": 1,
+    "name": "Tutorial 1",
+    "gridSize": 8,
+    "fruitTypes": 4,
+    "mode": "score",
+    "objective": {
+      "type": "score",
+      "target": 700
+    },
+    "moves": 30,
+    "timeLimit": null,
+    "stars": [
+      700,
+      1050,
+      1400
+    ],
+    "obstacles": [],
+    "unlockRequirement": null
+  },
+  {
+    "id": 2,
+    "name": "Tutorial 2",
+    "gridSize": 8,
+    "fruitTypes": 4,
+    "mode": "score",
+    "objective": {
+      "type": "score",
+      "target": 900
+    },
+    "moves": 29,
+    "timeLimit": null,
+    "stars": [
+      900,
+      1350,
+      1800
+    ],
+    "obstacles": [],
+    "unlockRequirement": 1
+  },
+  {
+    "id": 3,
+    "name": "Tutorial 3",
+    "gridSize": 8,
+    "fruitTypes": 4,
+    "mode": "score",
+    "objective": {
+      "type": "score",
+      "target": 1100
+    },
+    "moves": 29,
+    "timeLimit": null,
+    "stars": [
+      1100,
+      1650,
+      2200
+    ],
+    "obstacles": [],
+    "unlockRequirement": 2
+  },
+  {
+    "id": 4,
+    "name": "Tutorial 4",
+    "gridSize": 8,
+    "fruitTypes": 4,
+    "mode": "score",
+    "objective": {
+      "type": "score",
+      "target": 1300
+    },
+    "moves": 28,
+    "timeLimit": null,
+    "stars": [
+      1300,
+      1950,
+      2600
+    ],
+    "obstacles": [],
+    "unlockRequirement": 3
+  },
+  {
+    "id": 5,
+    "name": "Tutorial 5",
+    "gridSize": 8,
+    "fruitTypes": 4,
+    "mode": "score",
+    "objective": {
+      "type": "score",
+      "target": 1500
+    },
+    "moves": 28,
+    "timeLimit": null,
+    "stars": [
+      1500,
+      2250,
+      3000
+    ],
+    "obstacles": [],
+    "unlockRequirement": 4
+  },
+  {
+    "id": 6,
+    "name": "Tutorial 6",
+    "gridSize": 8,
+    "fruitTypes": 5,
+    "mode": "score",
+    "objective": {
+      "type": "score",
+      "target": 1700
+    },
+    "moves": 27,
+    "timeLimit": null,
+    "stars": [
+      1700,
+      2550,
+      3400
+    ],
+    "obstacles": [],
+    "unlockRequirement": 5
+  },
+  {
+    "id": 7,
+    "name": "Tutorial 7",
+    "gridSize": 8,
+    "fruitTypes": 5,
+    "mode": "score",
+    "objective": {
+      "type": "score",
+      "target": 1900
+    },
+    "moves": 27,
+    "timeLimit": null,
+    "stars": [
+      1900,
+      2850,
+      3800
+    ],
+    "obstacles": [],
+    "unlockRequirement": 6
+  },
+  {
+    "id": 8,
+    "name": "Tutorial 8",
+    "gridSize": 8,
+    "fruitTypes": 5,
+    "mode": "score",
+    "objective": {
+      "type": "score",
+      "target": 2100
+    },
+    "moves": 26,
+    "timeLimit": null,
+    "stars": [
+      2100,
+      3150,
+      4200
+    ],
+    "obstacles": [],
+    "unlockRequirement": 7
+  },
+  {
+    "id": 9,
+    "name": "Tutorial 9",
+    "gridSize": 8,
+    "fruitTypes": 5,
+    "mode": "score",
+    "objective": {
+      "type": "score",
+      "target": 2300
+    },
+    "moves": 26,
+    "timeLimit": null,
+    "stars": [
+      2300,
+      3450,
+      4600
+    ],
+    "obstacles": [],
+    "unlockRequirement": 8
+  },
+  {
+    "id": 10,
+    "name": "Tutorial 10",
+    "gridSize": 8,
+    "fruitTypes": 5,
+    "mode": "score",
+    "objective": {
+      "type": "score",
+      "target": 2500
+    },
+    "moves": 25,
+    "timeLimit": null,
+    "stars": [
+      2500,
+      3750,
+      5000
+    ],
+    "obstacles": [],
+    "unlockRequirement": 9
+  },
+  {
+    "id": 11,
+    "name": "Frosty Fields 1",
+    "gridSize": 8,
+    "fruitTypes": 5,
+    "mode": "clearIce",
+    "objective": {
+      "type": "clearIce",
+      "target": 1
+    },
+    "moves": 25,
+    "timeLimit": null,
+    "stars": [
+      3100,
+      4650,
+      6200
+    ],
+    "obstacles": [
+      {
+        "type": "ICE",
+        "row": 2,
+        "col": 4
+      }
+    ],
+    "unlockRequirement": 10
+  },
+  {
+    "id": 12,
+    "name": "Frosty Fields 2",
+    "gridSize": 8,
+    "fruitTypes": 5,
+    "mode": "collect",
+    "objective": {
+      "type": "collect",
+      "target": 12,
+      "fruitType": "apple"
+    },
+    "moves": 24,
+    "timeLimit": null,
+    "stars": [
+      3200,
+      4800,
+      6400
+    ],
+    "obstacles": [
+      {
+        "type": "ICE",
+        "row": 5,
+        "col": 2
+      },
+      {
+        "type": "ICE",
+        "row": 5,
+        "col": 0
+      }
+    ],
+    "unlockRequirement": 11
+  },
+  {
+    "id": 13,
+    "name": "Frosty Fields 3",
+    "gridSize": 8,
+    "fruitTypes": 5,
+    "mode": "clearIce",
+    "objective": {
+      "type": "clearIce",
+      "target": 3
+    },
+    "moves": 24,
+    "timeLimit": null,
+    "stars": [
+      3300,
+      4950,
+      6600
+    ],
+    "obstacles": [
+      {
+        "type": "ICE",
+        "row": 3,
+        "col": 1
+      },
+      {
+        "type": "ICE",
+        "row": 0,
+        "col": 1
+      },
+      {
+        "type": "ICE",
+        "row": 2,
+        "col": 6
+      }
+    ],
+    "unlockRequirement": 12
+  },
+  {
+    "id": 14,
+    "name": "Frosty Fields 4",
+    "gridSize": 8,
+    "fruitTypes": 5,
+    "mode": "collect",
+    "objective": {
+      "type": "collect",
+      "target": 14,
+      "fruitType": "apple"
+    },
+    "moves": 23,
+    "timeLimit": null,
+    "stars": [
+      3400,
+      5100,
+      6800
+    ],
+    "obstacles": [
+      {
+        "type": "ICE",
+        "row": 6,
+        "col": 7
+      },
+      {
+        "type": "ICE",
+        "row": 7,
+        "col": 1
+      },
+      {
+        "type": "ICE",
+        "row": 0,
+        "col": 6
+      },
+      {
+        "type": "ICE",
+        "row": 1,
+        "col": 4
+      }
+    ],
+    "unlockRequirement": 13
+  },
+  {
+    "id": 15,
+    "name": "Frosty Fields 5",
+    "gridSize": 8,
+    "fruitTypes": 5,
+    "mode": "clearIce",
+    "objective": {
+      "type": "clearIce",
+      "target": 5
+    },
+    "moves": 23,
+    "timeLimit": null,
+    "stars": [
+      3500,
+      5250,
+      7000
+    ],
+    "obstacles": [
+      {
+        "type": "ICE",
+        "row": 4,
+        "col": 5
+      },
+      {
+        "type": "ICE",
+        "row": 4,
+        "col": 0
+      },
+      {
+        "type": "ICE",
+        "row": 1,
+        "col": 5
+      },
+      {
+        "type": "ICE",
+        "row": 3,
+        "col": 6
+      },
+      {
+        "type": "ICE",
+        "row": 2,
+        "col": 0
+      }
+    ],
+    "unlockRequirement": 14
+  },
+  {
+    "id": 16,
+    "name": "Frosty Fields 6",
+    "gridSize": 8,
+    "fruitTypes": 6,
+    "mode": "collect",
+    "objective": {
+      "type": "collect",
+      "target": 16,
+      "fruitType": "apple"
+    },
+    "moves": 22,
+    "timeLimit": null,
+    "stars": [
+      3600,
+      5400,
+      7200
+    ],
+    "obstacles": [
+      {
+        "type": "ICE",
+        "row": 2,
+        "col": 1
+      },
+      {
+        "type": "ICE",
+        "row": 2,
+        "col": 7
+      },
+      {
+        "type": "ICE",
+        "row": 4,
+        "col": 2
+      },
+      {
+        "type": "ICE",
+        "row": 6,
+        "col": 2
+      },
+      {
+        "type": "ICE",
+        "row": 5,
+        "col": 3
+      },
+      {
+        "type": "ICE",
+        "row": 7,
+        "col": 7
+      }
+    ],
+    "unlockRequirement": 15
+  },
+  {
+    "id": 17,
+    "name": "Frosty Fields 7",
+    "gridSize": 8,
+    "fruitTypes": 6,
+    "mode": "clearIce",
+    "objective": {
+      "type": "clearIce",
+      "target": 7
+    },
+    "moves": 22,
+    "timeLimit": null,
+    "stars": [
+      3700,
+      5550,
+      7400
+    ],
+    "obstacles": [
+      {
+        "type": "ICE",
+        "row": 2,
+        "col": 4
+      },
+      {
+        "type": "ICE",
+        "row": 6,
+        "col": 1
+      },
+      {
+        "type": "ICE",
+        "row": 7,
+        "col": 7
+      },
+      {
+        "type": "ICE",
+        "row": 6,
+        "col": 5
+      },
+      {
+        "type": "ICE",
+        "row": 7,
+        "col": 1
+      },
+      {
+        "type": "ICE",
+        "row": 2,
+        "col": 7
+      }
+    ],
+    "unlockRequirement": 16
+  },
+  {
+    "id": 18,
+    "name": "Frosty Fields 8",
+    "gridSize": 8,
+    "fruitTypes": 6,
+    "mode": "collect",
+    "objective": {
+      "type": "collect",
+      "target": 18,
+      "fruitType": "apple"
+    },
+    "moves": 21,
+    "timeLimit": null,
+    "stars": [
+      3800,
+      5700,
+      7600
+    ],
+    "obstacles": [
+      {
+        "type": "ICE",
+        "row": 0,
+        "col": 4
+      },
+      {
+        "type": "ICE",
+        "row": 3,
+        "col": 4
+      },
+      {
+        "type": "ICE",
+        "row": 2,
+        "col": 0
+      },
+      {
+        "type": "ICE",
+        "row": 6,
+        "col": 2
+      },
+      {
+        "type": "ICE",
+        "row": 2,
+        "col": 1
+      },
+      {
+        "type": "ICE",
+        "row": 7,
+        "col": 4
+      },
+      {
+        "type": "ICE",
+        "row": 2,
+        "col": 6
+      },
+      {
+        "type": "ICE",
+        "row": 0,
+        "col": 5
+      }
+    ],
+    "unlockRequirement": 17
+  },
+  {
+    "id": 19,
+    "name": "Frosty Fields 9",
+    "gridSize": 8,
+    "fruitTypes": 6,
+    "mode": "clearIce",
+    "objective": {
+      "type": "clearIce",
+      "target": 9
+    },
+    "moves": 21,
+    "timeLimit": null,
+    "stars": [
+      3900,
+      5850,
+      7800
+    ],
+    "obstacles": [
+      {
+        "type": "ICE",
+        "row": 1,
+        "col": 6
+      },
+      {
+        "type": "ICE",
+        "row": 0,
+        "col": 4
+      },
+      {
+        "type": "ICE",
+        "row": 3,
+        "col": 7
+      },
+      {
+        "type": "ICE",
+        "row": 0,
+        "col": 1
+      },
+      {
+        "type": "ICE",
+        "row": 4,
+        "col": 0
+      },
+      {
+        "type": "ICE",
+        "row": 6,
+        "col": 6
+      },
+      {
+        "type": "ICE",
+        "row": 2,
+        "col": 7
+      },
+      {
+        "type": "ICE",
+        "row": 2,
+        "col": 2
+      }
+    ],
+    "unlockRequirement": 18
+  },
+  {
+    "id": 20,
+    "name": "Frosty Fields 10",
+    "gridSize": 8,
+    "fruitTypes": 6,
+    "mode": "collect",
+    "objective": {
+      "type": "collect",
+      "target": 20,
+      "fruitType": "apple"
+    },
+    "moves": 20,
+    "timeLimit": null,
+    "stars": [
+      4000,
+      6000,
+      8000
+    ],
+    "obstacles": [
+      {
+        "type": "ICE",
+        "row": 1,
+        "col": 4
+      },
+      {
+        "type": "ICE",
+        "row": 5,
+        "col": 4
+      },
+      {
+        "type": "ICE",
+        "row": 2,
+        "col": 1
+      },
+      {
+        "type": "ICE",
+        "row": 3,
+        "col": 5
+      },
+      {
+        "type": "ICE",
+        "row": 3,
+        "col": 0
+      },
+      {
+        "type": "ICE",
+        "row": 2,
+        "col": 7
+      },
+      {
+        "type": "ICE",
+        "row": 5,
+        "col": 0
+      },
+      {
+        "type": "ICE",
+        "row": 7,
+        "col": 6
+      },
+      {
+        "type": "ICE",
+        "row": 7,
+        "col": 4
+      },
+      {
+        "type": "ICE",
+        "row": 6,
+        "col": 0
+      }
+    ],
+    "unlockRequirement": 19
+  },
+  {
+    "id": 21,
+    "name": "Locked Orchard 1",
+    "gridSize": 8,
+    "fruitTypes": 6,
+    "mode": "score",
+    "objective": {
+      "type": "score",
+      "target": 3500
+    },
+    "moves": 22,
+    "timeLimit": null,
+    "stars": [
+      3500,
+      5250,
+      7000
+    ],
+    "obstacles": [
+      {
+        "type": "LOCKED",
+        "row": 7,
+        "col": 1
+      },
+      {
+        "type": "LOCKED",
+        "row": 7,
+        "col": 5
+      },
+      {
+        "type": "LOCKED",
+        "row": 7,
+        "col": 2
+      },
+      {
+        "type": "LOCKED",
+        "row": 1,
+        "col": 1
+      },
+      {
+        "type": "LOCKED",
+        "row": 4,
+        "col": 5
+      }
+    ],
+    "unlockRequirement": 20
+  },
+  {
+    "id": 22,
+    "name": "Locked Orchard 2",
+    "gridSize": 8,
+    "fruitTypes": 6,
+    "mode": "score",
+    "objective": {
+      "type": "score",
+      "target": 4000
+    },
+    "moves": 22,
+    "timeLimit": null,
+    "stars": [
+      4000,
+      6000,
+      8000
+    ],
+    "obstacles": [
+      {
+        "type": "LOCKED",
+        "row": 2,
+        "col": 5
+      },
+      {
+        "type": "LOCKED",
+        "row": 0,
+        "col": 5
+      },
+      {
+        "type": "LOCKED",
+        "row": 6,
+        "col": 5
+      },
+      {
+        "type": "LOCKED",
+        "row": 0,
+        "col": 0
+      },
+      {
+        "type": "LOCKED",
+        "row": 7,
+        "col": 1
+      }
+    ],
+    "unlockRequirement": 21
+  },
+  {
+    "id": 23,
+    "name": "Locked Orchard 3",
+    "gridSize": 8,
+    "fruitTypes": 6,
+    "mode": "score",
+    "objective": {
+      "type": "score",
+      "target": 4500
+    },
+    "moves": 21,
+    "timeLimit": null,
+    "stars": [
+      4500,
+      6750,
+      9000
+    ],
+    "obstacles": [
+      {
+        "type": "LOCKED",
+        "row": 3,
+        "col": 3
+      },
+      {
+        "type": "LOCKED",
+        "row": 4,
+        "col": 5
+      },
+      {
+        "type": "LOCKED",
+        "row": 3,
+        "col": 5
+      },
+      {
+        "type": "LOCKED",
+        "row": 7,
+        "col": 0
+      }
+    ],
+    "unlockRequirement": 22
+  },
+  {
+    "id": 24,
+    "name": "Locked Orchard 4",
+    "gridSize": 8,
+    "fruitTypes": 6,
+    "mode": "score",
+    "objective": {
+      "type": "score",
+      "target": 5000
+    },
+    "moves": 21,
+    "timeLimit": null,
+    "stars": [
+      5000,
+      7500,
+      10000
+    ],
+    "obstacles": [
+      {
+        "type": "LOCKED",
+        "row": 5,
+        "col": 7
+      },
+      {
+        "type": "LOCKED",
+        "row": 2,
+        "col": 5
+      },
+      {
+        "type": "LOCKED",
+        "row": 5,
+        "col": 3
+      },
+      {
+        "type": "LOCKED",
+        "row": 4,
+        "col": 1
+      },
+      {
+        "type": "LOCKED",
+        "row": 4,
+        "col": 6
+      }
+    ],
+    "unlockRequirement": 23
+  },
+  {
+    "id": 25,
+    "name": "Locked Orchard 5",
+    "gridSize": 8,
+    "fruitTypes": 6,
+    "mode": "score",
+    "objective": {
+      "type": "score",
+      "target": 5500
+    },
+    "moves": 21,
+    "timeLimit": null,
+    "stars": [
+      5500,
+      8250,
+      11000
+    ],
+    "obstacles": [
+      {
+        "type": "LOCKED",
+        "row": 5,
+        "col": 7
+      },
+      {
+        "type": "LOCKED",
+        "row": 5,
+        "col": 1
+      },
+      {
+        "type": "LOCKED",
+        "row": 7,
+        "col": 7
+      },
+      {
+        "type": "LOCKED",
+        "row": 0,
+        "col": 5
+      },
+      {
+        "type": "LOCKED",
+        "row": 1,
+        "col": 2
+      }
+    ],
+    "unlockRequirement": 24
+  },
+  {
+    "id": 26,
+    "name": "Locked Orchard 6",
+    "gridSize": 8,
+    "fruitTypes": 6,
+    "mode": "score",
+    "objective": {
+      "type": "score",
+      "target": 6000
+    },
+    "moves": 20,
+    "timeLimit": null,
+    "stars": [
+      6000,
+      9000,
+      12000
+    ],
+    "obstacles": [
+      {
+        "type": "LOCKED",
+        "row": 0,
+        "col": 1
+      },
+      {
+        "type": "LOCKED",
+        "row": 0,
+        "col": 7
+      },
+      {
+        "type": "LOCKED",
+        "row": 7,
+        "col": 1
+      },
+      {
+        "type": "LOCKED",
+        "row": 5,
+        "col": 3
+      },
+      {
+        "type": "LOCKED",
+        "row": 3,
+        "col": 0
+      }
+    ],
+    "unlockRequirement": 25
+  },
+  {
+    "id": 27,
+    "name": "Locked Orchard 7",
+    "gridSize": 8,
+    "fruitTypes": 6,
+    "mode": "score",
+    "objective": {
+      "type": "score",
+      "target": 6500
+    },
+    "moves": 20,
+    "timeLimit": null,
+    "stars": [
+      6500,
+      9750,
+      13000
+    ],
+    "obstacles": [
+      {
+        "type": "LOCKED",
+        "row": 4,
+        "col": 3
+      },
+      {
+        "type": "LOCKED",
+        "row": 4,
+        "col": 1
+      },
+      {
+        "type": "LOCKED",
+        "row": 1,
+        "col": 2
+      },
+      {
+        "type": "LOCKED",
+        "row": 3,
+        "col": 2
+      },
+      {
+        "type": "LOCKED",
+        "row": 3,
+        "col": 1
+      }
+    ],
+    "unlockRequirement": 26
+  },
+  {
+    "id": 28,
+    "name": "Locked Orchard 8",
+    "gridSize": 8,
+    "fruitTypes": 6,
+    "mode": "score",
+    "objective": {
+      "type": "score",
+      "target": 7000
+    },
+    "moves": 20,
+    "timeLimit": null,
+    "stars": [
+      7000,
+      10500,
+      14000
+    ],
+    "obstacles": [
+      {
+        "type": "LOCKED",
+        "row": 2,
+        "col": 6
+      },
+      {
+        "type": "LOCKED",
+        "row": 2,
+        "col": 0
+      },
+      {
+        "type": "LOCKED",
+        "row": 1,
+        "col": 1
+      },
+      {
+        "type": "LOCKED",
+        "row": 2,
+        "col": 4
+      },
+      {
+        "type": "LOCKED",
+        "row": 6,
+        "col": 0
+      }
+    ],
+    "unlockRequirement": 27
+  },
+  {
+    "id": 29,
+    "name": "Locked Orchard 9",
+    "gridSize": 8,
+    "fruitTypes": 6,
+    "mode": "score",
+    "objective": {
+      "type": "score",
+      "target": 7500
+    },
+    "moves": 19,
+    "timeLimit": null,
+    "stars": [
+      7500,
+      11250,
+      15000
+    ],
+    "obstacles": [
+      {
+        "type": "LOCKED",
+        "row": 5,
+        "col": 0
+      },
+      {
+        "type": "LOCKED",
+        "row": 4,
+        "col": 5
+      },
+      {
+        "type": "LOCKED",
+        "row": 5,
+        "col": 5
+      },
+      {
+        "type": "LOCKED",
+        "row": 2,
+        "col": 5
+      },
+      {
+        "type": "LOCKED",
+        "row": 0,
+        "col": 0
+      }
+    ],
+    "unlockRequirement": 28
+  },
+  {
+    "id": 30,
+    "name": "Locked Orchard 10",
+    "gridSize": 8,
+    "fruitTypes": 6,
+    "mode": "score",
+    "objective": {
+      "type": "score",
+      "target": 8000
+    },
+    "moves": 19,
+    "timeLimit": null,
+    "stars": [
+      8000,
+      12000,
+      16000
+    ],
+    "obstacles": [
+      {
+        "type": "LOCKED",
+        "row": 2,
+        "col": 1
+      },
+      {
+        "type": "LOCKED",
+        "row": 2,
+        "col": 2
+      },
+      {
+        "type": "LOCKED",
+        "row": 7,
+        "col": 7
+      },
+      {
+        "type": "LOCKED",
+        "row": 0,
+        "col": 0
+      },
+      {
+        "type": "LOCKED",
+        "row": 3,
+        "col": 5
+      }
+    ],
+    "unlockRequirement": 29
+  },
+  {
+    "id": 31,
+    "name": "Stone Garden 1",
+    "gridSize": 8,
+    "fruitTypes": 6,
+    "mode": "score",
+    "objective": {
+      "type": "score",
+      "target": 4500
+    },
+    "moves": 20,
+    "timeLimit": null,
+    "stars": [
+      4500,
+      6750,
+      9000
+    ],
+    "obstacles": [
+      {
+        "type": "BARRIER",
+        "row": 4,
+        "col": 4
+      },
+      {
+        "type": "BARRIER",
+        "row": 3,
+        "col": 2
+      },
+      {
+        "type": "BARRIER",
+        "row": 0,
+        "col": 0
+      },
+      {
+        "type": "BARRIER",
+        "row": 6,
+        "col": 1
+      }
+    ],
+    "unlockRequirement": 30
+  },
+  {
+    "id": 32,
+    "name": "Stone Garden 2",
+    "gridSize": 8,
+    "fruitTypes": 6,
+    "mode": "timed",
+    "objective": {
+      "type": "timed",
+      "target": 5000
+    },
+    "moves": null,
+    "timeLimit": 116,
+    "stars": [
+      5000,
+      7500,
+      10000
+    ],
+    "obstacles": [
+      {
+        "type": "BARRIER",
+        "row": 5,
+        "col": 7
+      },
+      {
+        "type": "BARRIER",
+        "row": 1,
+        "col": 1
+      },
+      {
+        "type": "BARRIER",
+        "row": 3,
+        "col": 4
+      },
+      {
+        "type": "BARRIER",
+        "row": 4,
+        "col": 7
+      }
+    ],
+    "unlockRequirement": 31
+  },
+  {
+    "id": 33,
+    "name": "Stone Garden 3",
+    "gridSize": 8,
+    "fruitTypes": 6,
+    "mode": "score",
+    "objective": {
+      "type": "score",
+      "target": 4500
+    },
+    "moves": 19,
+    "timeLimit": null,
+    "stars": [
+      4500,
+      6750,
+      9000
+    ],
+    "obstacles": [
+      {
+        "type": "BARRIER",
+        "row": 7,
+        "col": 1
+      },
+      {
+        "type": "BARRIER",
+        "row": 5,
+        "col": 3
+      },
+      {
+        "type": "BARRIER",
+        "row": 6,
+        "col": 2
+      },
+      {
+        "type": "BARRIER",
+        "row": 2,
+        "col": 2
+      }
+    ],
+    "unlockRequirement": 32
+  },
+  {
+    "id": 34,
+    "name": "Stone Garden 4",
+    "gridSize": 8,
+    "fruitTypes": 6,
+    "mode": "timed",
+    "objective": {
+      "type": "timed",
+      "target": 5000
+    },
+    "moves": null,
+    "timeLimit": 112,
+    "stars": [
+      5000,
+      7500,
+      10000
+    ],
+    "obstacles": [
+      {
+        "type": "BARRIER",
+        "row": 0,
+        "col": 5
+      },
+      {
+        "type": "BARRIER",
+        "row": 5,
+        "col": 1
+      },
+      {
+        "type": "BARRIER",
+        "row": 3,
+        "col": 1
+      },
+      {
+        "type": "BARRIER",
+        "row": 1,
+        "col": 3
+      }
+    ],
+    "unlockRequirement": 33
+  },
+  {
+    "id": 35,
+    "name": "Stone Garden 5",
+    "gridSize": 8,
+    "fruitTypes": 6,
+    "mode": "score",
+    "objective": {
+      "type": "score",
+      "target": 4500
+    },
+    "moves": 18,
+    "timeLimit": null,
+    "stars": [
+      4500,
+      6750,
+      9000
+    ],
+    "obstacles": [
+      {
+        "type": "BARRIER",
+        "row": 0,
+        "col": 0
+      },
+      {
+        "type": "BARRIER",
+        "row": 6,
+        "col": 2
+      },
+      {
+        "type": "BARRIER",
+        "row": 0,
+        "col": 7
+      },
+      {
+        "type": "BARRIER",
+        "row": 7,
+        "col": 2
+      }
+    ],
+    "unlockRequirement": 34
+  },
+  {
+    "id": 36,
+    "name": "Stone Garden 6",
+    "gridSize": 8,
+    "fruitTypes": 6,
+    "mode": "timed",
+    "objective": {
+      "type": "timed",
+      "target": 5000
+    },
+    "moves": null,
+    "timeLimit": 108,
+    "stars": [
+      5000,
+      7500,
+      10000
+    ],
+    "obstacles": [
+      {
+        "type": "BARRIER",
+        "row": 6,
+        "col": 3
+      },
+      {
+        "type": "BARRIER",
+        "row": 6,
+        "col": 4
+      },
+      {
+        "type": "BARRIER",
+        "row": 7,
+        "col": 1
+      },
+      {
+        "type": "BARRIER",
+        "row": 3,
+        "col": 3
+      }
+    ],
+    "unlockRequirement": 35
+  },
+  {
+    "id": 37,
+    "name": "Stone Garden 7",
+    "gridSize": 8,
+    "fruitTypes": 6,
+    "mode": "score",
+    "objective": {
+      "type": "score",
+      "target": 4500
+    },
+    "moves": 17,
+    "timeLimit": null,
+    "stars": [
+      4500,
+      6750,
+      9000
+    ],
+    "obstacles": [
+      {
+        "type": "BARRIER",
+        "row": 0,
+        "col": 7
+      },
+      {
+        "type": "BARRIER",
+        "row": 4,
+        "col": 4
+      },
+      {
+        "type": "BARRIER",
+        "row": 5,
+        "col": 5
+      },
+      {
+        "type": "BARRIER",
+        "row": 6,
+        "col": 1
+      }
+    ],
+    "unlockRequirement": 36
+  },
+  {
+    "id": 38,
+    "name": "Stone Garden 8",
+    "gridSize": 8,
+    "fruitTypes": 6,
+    "mode": "timed",
+    "objective": {
+      "type": "timed",
+      "target": 5000
+    },
+    "moves": null,
+    "timeLimit": 104,
+    "stars": [
+      5000,
+      7500,
+      10000
+    ],
+    "obstacles": [
+      {
+        "type": "BARRIER",
+        "row": 4,
+        "col": 4
+      },
+      {
+        "type": "BARRIER",
+        "row": 1,
+        "col": 3
+      },
+      {
+        "type": "BARRIER",
+        "row": 5,
+        "col": 0
+      },
+      {
+        "type": "BARRIER",
+        "row": 2,
+        "col": 5
+      }
+    ],
+    "unlockRequirement": 37
+  },
+  {
+    "id": 39,
+    "name": "Stone Garden 9",
+    "gridSize": 8,
+    "fruitTypes": 6,
+    "mode": "score",
+    "objective": {
+      "type": "score",
+      "target": 4500
+    },
+    "moves": 16,
+    "timeLimit": null,
+    "stars": [
+      4500,
+      6750,
+      9000
+    ],
+    "obstacles": [
+      {
+        "type": "BARRIER",
+        "row": 2,
+        "col": 1
+      },
+      {
+        "type": "BARRIER",
+        "row": 2,
+        "col": 6
+      },
+      {
+        "type": "BARRIER",
+        "row": 1,
+        "col": 2
+      },
+      {
+        "type": "BARRIER",
+        "row": 2,
+        "col": 0
+      }
+    ],
+    "unlockRequirement": 38
+  },
+  {
+    "id": 40,
+    "name": "Stone Garden 10",
+    "gridSize": 8,
+    "fruitTypes": 6,
+    "mode": "timed",
+    "objective": {
+      "type": "timed",
+      "target": 5000
+    },
+    "moves": null,
+    "timeLimit": 100,
+    "stars": [
+      5000,
+      7500,
+      10000
+    ],
+    "obstacles": [
+      {
+        "type": "BARRIER",
+        "row": 1,
+        "col": 3
+      },
+      {
+        "type": "BARRIER",
+        "row": 3,
+        "col": 6
+      },
+      {
+        "type": "BARRIER",
+        "row": 4,
+        "col": 3
+      },
+      {
+        "type": "BARRIER",
+        "row": 3,
+        "col": 4
+      }
+    ],
+    "unlockRequirement": 39
+  },
+  {
+    "id": 41,
+    "name": "Boss Domain 1",
+    "gridSize": 8,
+    "fruitTypes": 6,
+    "mode": "collect",
+    "objective": {
+      "type": "collect",
+      "target": 30,
+      "fruitType": "orange"
+    },
+    "moves": 18,
+    "timeLimit": null,
+    "stars": [
+      6100,
+      9150,
+      12200
+    ],
+    "obstacles": [
+      {
+        "type": "STONE",
+        "row": 5,
+        "col": 2
+      },
+      {
+        "type": "STONE",
+        "row": 0,
+        "col": 4
+      },
+      {
+        "type": "STONE",
+        "row": 0,
+        "col": 3
+      },
+      {
+        "type": "ICE",
+        "row": 3,
+        "col": 0
+      },
+      {
+        "type": "ICE",
+        "row": 5,
+        "col": 3
+      },
+      {
+        "type": "ICE",
+        "row": 0,
+        "col": 1
+      },
+      {
+        "type": "LOCKED",
+        "row": 4,
+        "col": 7
+      }
+    ],
+    "unlockRequirement": 40
+  },
+  {
+    "id": 42,
+    "name": "Boss Domain 2",
+    "gridSize": 8,
+    "fruitTypes": 6,
+    "mode": "collect",
+    "objective": {
+      "type": "collect",
+      "target": 30,
+      "fruitType": "orange"
+    },
+    "moves": 17,
+    "timeLimit": null,
+    "stars": [
+      6200,
+      9300,
+      12400
+    ],
+    "obstacles": [
+      {
+        "type": "STONE",
+        "row": 7,
+        "col": 5
+      },
+      {
+        "type": "STONE",
+        "row": 4,
+        "col": 1
+      },
+      {
+        "type": "STONE",
+        "row": 2,
+        "col": 3
+      },
+      {
+        "type": "ICE",
+        "row": 7,
+        "col": 1
+      },
+      {
+        "type": "ICE",
+        "row": 5,
+        "col": 2
+      },
+      {
+        "type": "ICE",
+        "row": 5,
+        "col": 7
+      },
+      {
+        "type": "LOCKED",
+        "row": 4,
+        "col": 4
+      }
+    ],
+    "unlockRequirement": 41
+  },
+  {
+    "id": 43,
+    "name": "Boss Domain 3",
+    "gridSize": 8,
+    "fruitTypes": 6,
+    "mode": "collect",
+    "objective": {
+      "type": "collect",
+      "target": 30,
+      "fruitType": "orange"
+    },
+    "moves": 17,
+    "timeLimit": null,
+    "stars": [
+      6300,
+      9450,
+      12600
+    ],
+    "obstacles": [
+      {
+        "type": "STONE",
+        "row": 7,
+        "col": 6
+      },
+      {
+        "type": "STONE",
+        "row": 2,
+        "col": 3
+      },
+      {
+        "type": "STONE",
+        "row": 3,
+        "col": 5
+      },
+      {
+        "type": "ICE",
+        "row": 1,
+        "col": 0
+      },
+      {
+        "type": "ICE",
+        "row": 4,
+        "col": 4
+      },
+      {
+        "type": "ICE",
+        "row": 7,
+        "col": 3
+      },
+      {
+        "type": "LOCKED",
+        "row": 5,
+        "col": 5
+      },
+      {
+        "type": "LOCKED",
+        "row": 5,
+        "col": 3
+      }
+    ],
+    "unlockRequirement": 42
+  },
+  {
+    "id": 44,
+    "name": "Boss Domain 4",
+    "gridSize": 8,
+    "fruitTypes": 6,
+    "mode": "collect",
+    "objective": {
+      "type": "collect",
+      "target": 30,
+      "fruitType": "orange"
+    },
+    "moves": 16,
+    "timeLimit": null,
+    "stars": [
+      6400,
+      9600,
+      12800
+    ],
+    "obstacles": [
+      {
+        "type": "STONE",
+        "row": 7,
+        "col": 6
+      },
+      {
+        "type": "STONE",
+        "row": 0,
+        "col": 3
+      },
+      {
+        "type": "STONE",
+        "row": 0,
+        "col": 2
+      },
+      {
+        "type": "ICE",
+        "row": 0,
+        "col": 7
+      },
+      {
+        "type": "ICE",
+        "row": 1,
+        "col": 5
+      },
+      {
+        "type": "ICE",
+        "row": 2,
+        "col": 1
+      },
+      {
+        "type": "LOCKED",
+        "row": 3,
+        "col": 3
+      },
+      {
+        "type": "LOCKED",
+        "row": 1,
+        "col": 4
+      }
+    ],
+    "unlockRequirement": 43
+  },
+  {
+    "id": 45,
+    "name": "Boss Domain 5",
+    "gridSize": 8,
+    "fruitTypes": 6,
+    "mode": "collect",
+    "objective": {
+      "type": "collect",
+      "target": 30,
+      "fruitType": "orange"
+    },
+    "moves": 16,
+    "timeLimit": null,
+    "stars": [
+      6500,
+      9750,
+      13000
+    ],
+    "obstacles": [
+      {
+        "type": "STONE",
+        "row": 2,
+        "col": 2
+      },
+      {
+        "type": "STONE",
+        "row": 6,
+        "col": 6
+      },
+      {
+        "type": "STONE",
+        "row": 7,
+        "col": 5
+      },
+      {
+        "type": "ICE",
+        "row": 7,
+        "col": 6
+      },
+      {
+        "type": "ICE",
+        "row": 3,
+        "col": 3
+      },
+      {
+        "type": "ICE",
+        "row": 7,
+        "col": 7
+      },
+      {
+        "type": "LOCKED",
+        "row": 1,
+        "col": 1
+      },
+      {
+        "type": "LOCKED",
+        "row": 0,
+        "col": 3
+      }
+    ],
+    "unlockRequirement": 44
+  },
+  {
+    "id": 46,
+    "name": "Boss Domain 6",
+    "gridSize": 8,
+    "fruitTypes": 6,
+    "mode": "collect",
+    "objective": {
+      "type": "collect",
+      "target": 30,
+      "fruitType": "orange"
+    },
+    "moves": 15,
+    "timeLimit": null,
+    "stars": [
+      6600,
+      9900,
+      13200
+    ],
+    "obstacles": [
+      {
+        "type": "STONE",
+        "row": 5,
+        "col": 6
+      },
+      {
+        "type": "STONE",
+        "row": 5,
+        "col": 4
+      },
+      {
+        "type": "STONE",
+        "row": 7,
+        "col": 5
+      },
+      {
+        "type": "ICE",
+        "row": 7,
+        "col": 2
+      },
+      {
+        "type": "ICE",
+        "row": 1,
+        "col": 7
+      },
+      {
+        "type": "ICE",
+        "row": 2,
+        "col": 1
+      },
+      {
+        "type": "LOCKED",
+        "row": 6,
+        "col": 3
+      },
+      {
+        "type": "LOCKED",
+        "row": 1,
+        "col": 4
+      }
+    ],
+    "unlockRequirement": 45
+  },
+  {
+    "id": 47,
+    "name": "Boss Domain 7",
+    "gridSize": 8,
+    "fruitTypes": 6,
+    "mode": "collect",
+    "objective": {
+      "type": "collect",
+      "target": 30,
+      "fruitType": "orange"
+    },
+    "moves": 15,
+    "timeLimit": null,
+    "stars": [
+      6700,
+      10050,
+      13400
+    ],
+    "obstacles": [
+      {
+        "type": "STONE",
+        "row": 5,
+        "col": 2
+      },
+      {
+        "type": "STONE",
+        "row": 7,
+        "col": 3
+      },
+      {
+        "type": "STONE",
+        "row": 5,
+        "col": 4
+      },
+      {
+        "type": "ICE",
+        "row": 1,
+        "col": 3
+      },
+      {
+        "type": "ICE",
+        "row": 1,
+        "col": 6
+      },
+      {
+        "type": "ICE",
+        "row": 3,
+        "col": 1
+      },
+      {
+        "type": "LOCKED",
+        "row": 6,
+        "col": 3
+      },
+      {
+        "type": "LOCKED",
+        "row": 6,
+        "col": 6
+      }
+    ],
+    "unlockRequirement": 46
+  },
+  {
+    "id": 48,
+    "name": "Boss Domain 8",
+    "gridSize": 8,
+    "fruitTypes": 6,
+    "mode": "collect",
+    "objective": {
+      "type": "collect",
+      "target": 30,
+      "fruitType": "orange"
+    },
+    "moves": 14,
+    "timeLimit": null,
+    "stars": [
+      6800,
+      10200,
+      13600
+    ],
+    "obstacles": [
+      {
+        "type": "STONE",
+        "row": 0,
+        "col": 7
+      },
+      {
+        "type": "STONE",
+        "row": 2,
+        "col": 1
+      },
+      {
+        "type": "ICE",
+        "row": 1,
+        "col": 7
+      },
+      {
+        "type": "ICE",
+        "row": 3,
+        "col": 2
+      },
+      {
+        "type": "LOCKED",
+        "row": 5,
+        "col": 1
+      },
+      {
+        "type": "LOCKED",
+        "row": 5,
+        "col": 3
+      }
+    ],
+    "unlockRequirement": 47
+  },
+  {
+    "id": 49,
+    "name": "Boss Domain 9",
+    "gridSize": 8,
+    "fruitTypes": 6,
+    "mode": "collect",
+    "objective": {
+      "type": "collect",
+      "target": 30,
+      "fruitType": "orange"
+    },
+    "moves": 14,
+    "timeLimit": null,
+    "stars": [
+      6900,
+      10350,
+      13800
+    ],
+    "obstacles": [
+      {
+        "type": "STONE",
+        "row": 4,
+        "col": 0
+      },
+      {
+        "type": "STONE",
+        "row": 0,
+        "col": 4
+      },
+      {
+        "type": "STONE",
+        "row": 1,
+        "col": 6
+      },
+      {
+        "type": "ICE",
+        "row": 1,
+        "col": 3
+      },
+      {
+        "type": "ICE",
+        "row": 1,
+        "col": 0
+      },
+      {
+        "type": "ICE",
+        "row": 4,
+        "col": 3
+      },
+      {
+        "type": "LOCKED",
+        "row": 2,
+        "col": 2
+      }
+    ],
+    "unlockRequirement": 48
+  },
+  {
+    "id": 50,
+    "name": "Boss Domain 10",
+    "gridSize": 8,
+    "fruitTypes": 6,
+    "mode": "collect",
+    "objective": {
+      "type": "collect",
+      "target": 30,
+      "fruitType": "orange"
+    },
+    "moves": 13,
+    "timeLimit": null,
+    "stars": [
+      7000,
+      10500,
+      14000
+    ],
+    "obstacles": [
+      {
+        "type": "STONE",
+        "row": 0,
+        "col": 3
+      },
+      {
+        "type": "STONE",
+        "row": 5,
+        "col": 2
+      },
+      {
+        "type": "ICE",
+        "row": 3,
+        "col": 7
+      },
+      {
+        "type": "ICE",
+        "row": 5,
+        "col": 3
+      },
+      {
+        "type": "LOCKED",
+        "row": 4,
+        "col": 6
+      },
+      {
+        "type": "LOCKED",
+        "row": 1,
+        "col": 2
+      }
+    ],
+    "unlockRequirement": 49
+  },
+  {
+    "id": 51,
+    "name": "Expert Challenge 1",
+    "gridSize": 9,
+    "fruitTypes": 6,
+    "mode": "score",
+    "objective": {
+      "type": "score",
+      "target": 10000
+    },
+    "moves": 15,
+    "timeLimit": null,
+    "stars": [
+      10000,
+      15000,
+      20000
+    ],
+    "obstacles": [],
+    "unlockRequirement": 50
+  },
+  {
+    "id": 52,
+    "name": "Expert Challenge 2",
+    "gridSize": 8,
+    "fruitTypes": 6,
+    "mode": "score",
+    "objective": {
+      "type": "score",
+      "target": 10000
+    },
+    "moves": 15,
+    "timeLimit": null,
+    "stars": [
+      10000,
+      15000,
+      20000
+    ],
+    "obstacles": [],
+    "unlockRequirement": 51
+  },
+  {
+    "id": 53,
+    "name": "Expert Challenge 3",
+    "gridSize": 8,
+    "fruitTypes": 6,
+    "mode": "score",
+    "objective": {
+      "type": "score",
+      "target": 10000
+    },
+    "moves": 15,
+    "timeLimit": null,
+    "stars": [
+      10000,
+      15000,
+      20000
+    ],
+    "obstacles": [],
+    "unlockRequirement": 52
+  },
+  {
+    "id": 54,
+    "name": "Expert Challenge 4",
+    "gridSize": 8,
+    "fruitTypes": 6,
+    "mode": "score",
+    "objective": {
+      "type": "score",
+      "target": 10000
+    },
+    "moves": 15,
+    "timeLimit": null,
+    "stars": [
+      10000,
+      15000,
+      20000
+    ],
+    "obstacles": [],
+    "unlockRequirement": 53
+  },
+  {
+    "id": 55,
+    "name": "Expert Challenge 5",
+    "gridSize": 8,
+    "fruitTypes": 6,
+    "mode": "score",
+    "objective": {
+      "type": "score",
+      "target": 10000
+    },
+    "moves": 15,
+    "timeLimit": null,
+    "stars": [
+      10000,
+      15000,
+      20000
+    ],
+    "obstacles": [],
+    "unlockRequirement": 54
+  }
+];
+export default levelsData;

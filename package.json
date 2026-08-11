@@ -1,0 +1,17 @@
+{
+  "name": "candy-crush-3d",
+  "version": "1.0.0",
+  "description": "A 3D Candy Crush match-3 game built with Three.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "three": "^0.161.0"
+  },
+  "devDependencies": {
+    "vite": "^5.1.4"
+  }
+}
